@@ -1,0 +1,54 @@
+2024-10-13T17:14:09.746+02:00  INFO 14432 --- [main] p.ProjektZajavka2Application             : Starting ProjektZajavka2Application using Java 22.0.1 with PID 14432 (D:\java nauka\projektZajavka2\target\classes started by L.M in D:\java nauka\projektZajavka2)
+2024-10-13T17:14:09.749+02:00  INFO 14432 --- [main] p.ProjektZajavka2Application             : No active profile set, falling back to 1 default profile: "default"
+2024-10-13T17:14:11.015+02:00  INFO 14432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-13T17:14:11.097+02:00  INFO 14432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 8 JPA repository interfaces.
+2024-10-13T17:14:11.938+02:00  INFO 14432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-10-13T17:14:11.954+02:00  INFO 14432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-13T17:14:11.974+02:00  INFO 14432 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-13T17:14:12.052+02:00  INFO 14432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-13T17:14:12.053+02:00  INFO 14432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2213 ms
+2024-10-13T17:14:12.090+02:00  INFO 14432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-13T17:14:12.338+02:00  INFO 14432 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-13T17:14:12.340+02:00  INFO 14432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-13T17:14:12.353+02:00  INFO 14432 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-13T17:14:12.571+02:00  INFO 14432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-13T17:14:12.634+02:00  INFO 14432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-13T17:14:12.668+02:00  INFO 14432 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-13T17:14:12.997+02:00  INFO 14432 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-13T17:14:13.040+02:00  WARN 14432 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-13T17:14:14.099+02:00  INFO 14432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-13T17:14:14.165+02:00  INFO 14432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T17:14:14.831+02:00  WARN 14432 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-13T17:14:14.855+02:00  INFO 14432 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-13T17:14:15.672+02:00  INFO 14432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-10-13T17:14:15.682+02:00  INFO 14432 --- [main] p.ProjektZajavka2Application             : Started ProjektZajavka2Application in 6.649 seconds (process running for 7.706)
+2024-10-13T17:23:25.786+02:00  INFO 14432 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T17:23:25.799+02:00  INFO 14432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-13T17:23:25.802+02:00  INFO 14432 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-13T17:24:35.141+02:00  INFO 14760 --- [main] p.ProjektZajavka2Application             : Starting ProjektZajavka2Application using Java 22.0.1 with PID 14760 (D:\java nauka\projektZajavka2\target\classes started by L.M in D:\java nauka\projektZajavka2)
+2024-10-13T17:24:35.149+02:00  INFO 14760 --- [main] p.ProjektZajavka2Application             : The following 1 profile is active: "h2"
+2024-10-13T17:24:36.023+02:00  INFO 14760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-13T17:24:36.112+02:00  INFO 14760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 8 JPA repository interfaces.
+2024-10-13T17:24:36.853+02:00  INFO 14760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-10-13T17:24:36.872+02:00  INFO 14760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-13T17:24:36.872+02:00  INFO 14760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-13T17:24:36.971+02:00  INFO 14760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-13T17:24:36.972+02:00  INFO 14760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1760 ms
+2024-10-13T17:24:37.010+02:00  INFO 14760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-13T17:24:37.263+02:00  INFO 14760 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-13T17:24:37.267+02:00  INFO 14760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-13T17:24:37.281+02:00  INFO 14760 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-13T17:24:37.582+02:00  INFO 14760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-13T17:24:37.641+02:00  INFO 14760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-13T17:24:37.681+02:00  INFO 14760 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-13T17:24:38.033+02:00  INFO 14760 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-13T17:24:38.076+02:00  WARN 14760 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-13T17:24:39.134+02:00  INFO 14760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-13T17:24:39.200+02:00  INFO 14760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T17:24:39.821+02:00  WARN 14760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-13T17:24:39.847+02:00  INFO 14760 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-10-13T17:24:40.803+02:00  INFO 14760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-10-13T17:24:40.813+02:00  INFO 14760 --- [main] p.ProjektZajavka2Application             : Started ProjektZajavka2Application in 6.321 seconds (process running for 6.812)
+2024-10-13T17:51:04.718+02:00  INFO 14760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T17:51:04.729+02:00  INFO 14760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-13T17:51:04.732+02:00  INFO 14760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
