@@ -1,5 +1,5 @@
 projektZajavka2 
-Opis (streszcenie) projektu.
+Opis (streszczenie) projektu.
 Projekt został zrealizowany z użyciem Mavena, wraz z odpowiednimi komentarzami w pliku pom.xml:
 
 Klasy encji w projekcie.
