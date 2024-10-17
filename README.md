@@ -1,4 +1,4 @@
-#projektZajavka2 
+projektZajavka2 
 Opis (streszczenie) projektu.
 Projekt został zrealizowany z użyciem Mavena, wraz z odpowiednimi komentarzami w pliku pom.xml:
 
